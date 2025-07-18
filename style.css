@@ -265,6 +265,35 @@ table, th, td {
     padding: 12px;
     text-align: center;
 }
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table-responsive table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px; /* bisa sesuaikan agar memicu scroll */
+}
+
+.table-responsive th,
+.table-responsive td {
+  padding: 12px 16px;
+  border: 1px solid #eee;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.table-responsive th {
+  background-color: #f8f8f8;
+  font-weight: 700;
+}
+/* Scrol tabel */
+.table-responsive::-webkit-scrollbar {
+    height: 8px;
+}
+
+
 
 footer {
     background: #222;
@@ -273,76 +302,6 @@ footer {
     text-align: center;
 }
 
- #perbandingan table {
-        width: 100%;
-        margin-top: 2rem;
-        border-collapse: separate;
-        border-spacing: 0;
-        background: white;
-        border-radius: 12px;
-        overflow: hidden;
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    }
-
-    #perbandingan th, #perbandingan td {
-        padding: 1rem 1.5rem;
-        text-align: center;
-        font-size: 1rem;
-        border-bottom: 1px solid #e0e0e0;
-    }
-
-    #perbandingan thead {
-        background: #f5f5f5;
-    }
-
-    #perbandingan th {
-        font-weight: bold;
-        color: #333;
-    }
-
-    #perbandingan tbody tr:nth-child(even) {
-        background: #fafafa;
-    }
-
-    #perbandingan tbody tr:hover {
-        background: #f0f8ff;
-        transition: 0.3s;
-    }
-
-    #perbandingan strong {
-        color: #2e8b57;
-    }
-
-    @media (max-width: 768px) {
-        #perbandingan table,
-        #perbandingan thead,
-        #perbandingan tbody,
-        #perbandingan th,
-        #perbandingan td,
-        #perbandingan tr {
-            display: block;
-        }
-
-        #perbandingan thead {
-            display: none;
-        }
-
-        #perbandingan td {
-            padding: 0.75rem;
-            text-align: left;
-            border: none;
-            border-bottom: 1px solid #ddd;
-            position: relative;
-        }
-
-        #perbandingan td::before {
-            content: attr(data-label);
-            font-weight: bold;
-            display: block;
-            color: #888;
-            margin-bottom: 0.5rem;
-        }
-    }
     .mySwiper {
     width: 100%;
     max-width: 1000px;
@@ -377,5 +336,7 @@ footer {
     background: #2e8b57;
     opacity: 1;
 }
+
+
 
     
