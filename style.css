@@ -23,7 +23,7 @@ h2 {
     margin-bottom: 15px;
 }
 p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 1.6;
     margin-bottom: 20px;
     font-weight: 300;
@@ -109,12 +109,7 @@ ul li {
     background-position: center;
     color: white;
     position: relative;
-    padding: 80px 0;
-}
-
-#masalah .overlay {
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 60px 20px;
+    padding: 50px 0;
 }
 
 #masalah h2,
