@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body, html {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+h1, h2, h3 {
+    font-weight: 600;
+}
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+a {
+    text-decoration: none;
+    color: #f34e3a;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    
+    padding: 40px 20px;
+}
+
+header {
+      background: url('img/hero.jpg') no-repeat center center/cover;
+              background-size: cover;
+      background-attachment: fixed;
+      background-blend-mode: overlay;
+      background-color: rgba(0, 0, 0, 0.6);
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+      
+            text-align: center;
+}
+
+.subheadline {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #f34e3a;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #f34e3a;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 1.1rem;
+}
+
+.btn:hover {
+    background-color: #d33925;
+}
+
+.btn.outline {
+    background: none;
+    border: 2px solid #f34e3a;
+    color: #f34e3a;
+}
+
+#masalah {
+    background:#d33925; /* Gambar background bisa kamu ganti sesuai branding */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+    padding: 80px 0;
+}
+
+#masalah .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 60px 20px;
+}
+
+#masalah h2,
+#masalah p,
+#masalah ul li {
+    color: #fff;
+}
+
+#masalah ul {
+    padding-left: 20px;
+}
+
+
+.btn.outline:hover {
+    background-color: #f34e3a;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}

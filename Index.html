@@ -3,208 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REKABRICK VS BATA TEMPEL</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f5f5f5;
-            color: #333;
-        }
-        header {
-            /* Background dari folder img */
-            background: url('img/rekabrik.jpeg') no-repeat center center/cover;
-              background-size: cover;
-      background-attachment: fixed;
-      background-blend-mode: overlay;
-      background-color: rgba(0, 0, 0, 0.6);
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            color: white;
-      
-            text-align: center;
-        }
-        header h1 {
-            font-size: 2.7em;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-            font-weight: bold;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            color: #68c94b; /* Warna kontras untuk judul */
-      
-        }
-        header h2 {
-            font-size: 3em;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-            font-weight: bold;
-            letter-spacing: 2px;
-            align-items: center;
-            
-        }
-        header p {
-            font-size: 1.5em;
-        }
-        .cta-button {
-            background: #e63946;
-            color: white;
-            padding: 15px 25px;
-            border: none;
-            font-size: 1.2em;
-            cursor: pointer;
-            margin-top: 20px;
-            border-radius: 5px;
-        }
-        section {
-            padding: 40px 20px;
-            max-width: 1000px;
-            margin: auto;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-        th, td {
-            border: 1px solid #ccc;
-            padding: 15px;
-            text-align: center;
-        }
-        th {
-            background: #eee;
-        }
-        .video-section iframe {
-            width: 100%;
-            height: 400px;
-            border: none;
-            border-radius: 10px;
-        }
-        .floating-wa {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background: #25d366;
-            color: white;
-            padding: 15px;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: bold;
-            box-shadow: 0 0 10px rgba(0,0,0,0.3);
-        }
-        /* Tambahkan ini di bagian <style> atau CSS eksternal */
-        .instagram-wrapper {
-         display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 20px;
-        }
+    <title>Rekabrick - Solusi Bangun Cerdas</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
-    </style>
+    
 </head>
+
 <body>
     <header>
-        <h1>REKABRICK VS BATA TEMPEL</h1>
-        <h2 >Masih Mau Tempel-Tempel Bata ?</h2>
-        <p>Sekarang Udah Ada yang Lebih CEPAT, KUAT, dan LANGSUNG RAPI</p>
-   
-        <button class="cta-button" onclick="window.scrollTo({top: document.querySelector('section').offsetTop, behavior: 'smooth'})">Lihat Sekarang</button>
-       
+        <div class="container">
+            <h1>Cari Bata Murah Atau Bata Tempel?</h1>
+            <p class="subheadline">Dapatkan Solusi Bangun Cerdas: <strong style="color: rgb(26, 223, 26);   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); ">REKABRICK</strong>.</p>
+            <p>Lebih dari sekadar harga bata termurah. <br> Hemat waktu, biaya, dan hasil lebih estetis — tanpa plester, tanpa cat, tanpa ribet.</p>
+            <div class="cta-buttons">
+                <a href="#tentang" class="btn"><strong>Kenali Rekabrick Lebih Dekat</strong></a>
+                <a href="#simulasi" class="btn outline"><strong>Simulasikan Penghematan</strong></a>
+            </div>
+        </div>
     </header>
 
-    <section style="text-align: justify; padding: 40px 20px; background: #f0f0f0;">
-        <h2 >Kamu Cari Bata Tempel ?</h2>
-        <div style="background: #fffbe6; border-left: 6px solid #68c94b; padding: 24px; border-radius: 8px; box-shadow: 0 2px 8px rgba(104,201,75,0.08); margin-bottom: 32px;">
-            <h3 style="color:#e63946; text-align: center; margin-top:0;">STOP Dulu!</h3>
-            <p style="font-size:1.2em; margin-bottom:16px;">Jangan buru-buru beli sebelum lihat yang satu ini...</p>
-            <h3 style="color:#68c94b; text-align: center; margin-bottom:8px;">REKABRICK Bata Interlock</h3>
-            <ul style="font-size:1em;">
-                <li>Bukan cuma buat gaya, tapi sekalian buat dinding utuh yang kuat dan tampil estetik.</li>
-                <li>Gak perlu tempel-tempel. Gak perlu plester ulang.</li>
-                <li>Langsung bangun. Langsung rapi.</li>
+  <section id="masalah">
+    <div class="overlay">
+        <div class="container" data-aos="fade-up">
+            <h2>Bata murah bisa bikin boros. Bata tempel rawan copot.</h2>
+            <p>Kenapa tidak beralih ke solusi yang lebih efisien & tahan lama?</p>
+            <ul>
+                <li>⛔ Waktu pemasangan lebih lama</li>
+                <li>⛔ Biaya tukang makin membengkak</li>
+                <li>⛔ Finishing ulang pakai plester, acian, dan cat</li>
+                <li>⛔ Bata tempel bisa rontok atau retak</li>
+            </ul>
+            <p data-aos="zoom-in" data-aos-delay="300">✅ <strong>Rekabrick hadir sebagai solusi interlock presisi tinggi!</strong></p>
+        </div>
+    </div>
+</section>
+
+
+    <section id="tentang">
+        <div class="container">
+            <h2>Apa Itu Rekabrick?</h2>
+            <p>Bata interlock presisi tinggi dari Madura yang menjawab semua masalah bata lama.</p>
+            <ul class="keunggulan">
+                <li>✔ Tanpa plester & cat</li>
+                <li>✔ Presisi interlock, cepat dipasang</li>
+                <li>✔ Lebih sejuk & tahan cuaca</li>
+                <li>✔ Ramah lingkungan (non-bakar)</li>
+                <li>✔ Hemat biaya total hingga 35%</li>
             </ul>
         </div>
     </section>
 
-    <!-- Text Center -->
- 
-
-    <section style="text-align: center; padding: 40px 20px; background: linear-gradient(135deg, #e0ffe0 0%, #f0f0f0 100%); border-radius: 16px; box-shadow: 0 4px 24px rgba(104,201,75,0.10); margin-bottom: 32px;">
-        <h2 style="color:#68c94b; font-size:2.2em; margin-bottom:24px; letter-spacing:1px;">Perbandingan Bata Tempel vs REKABRICK</h2>
-        <table style="background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 12px rgba(104,201,75,0.08);">
-            <thead>
-                <tr style="background:#68c94b; color:#160e0e; font-size:1.15em;">
-                    <th style="padding:18px;">Fitur</th>
-                    <th style="padding:18px;">Bata Tempel</th>
-                    <th style="padding:18px;">REKABRICK</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td style="font-weight:600;">Butuh Acian?</td>
-                    <td style="color:#e63946;">YA</td>
-                    <td style="color:#68c94b; font-weight:bold;">TIDAK</td>
-                </tr>
-                <tr style="background:#f9fff9;">
-                    <td style="font-weight:600;">Tukang Tambahan?</td>
-                    <td style="color:#e63946;">YA</td>
-                    <td style="color:#68c94b; font-weight:bold;">HEMAT</td>
-                </tr>
-                <tr>
-                    <td style="font-weight:600;">Struktural?</td>
-                    <td style="color:#e63946;">TIDAK</td>
-                    <td style="color:#68c94b; font-weight:bold;">YA</td>
-                </tr>
-                <tr style="background:#f9fff9;">
-                    <td style="font-weight:600;">Tahan Lama?</td>
-                    <td style="color:#e63946;">Rawan Rusak</td>
-                    <td style="color:#68c94b; font-weight:bold;">Tahan Lama</td>
-                </tr>
-                <tr>
-                    <td style="font-weight:600;">Biaya Total?</td>
-                    <td style="color:#e63946;">Mahal</td>
-                    <td style="color:#68c94b; font-weight:bold;">Lebih Hemat</td>
-                </tr>
-            </tbody>
-        </table>
-        <div style="margin-top:28px;">
-            <span style="display:inline-block; background:#68c94b; color:#fff; padding:12px 32px; border-radius:24px; font-size:1.15em; font-weight:bold; box-shadow:0 2px 8px rgba(104,201,75,0.10);">Pilih yang Lebih Praktis & Hemat!</span>
+    <section id="perbandingan">
+        <div class="container">
+            <h2>Bandingkan Sendiri: Rekabrick vs Bata Murah</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Aspek</th>
+                        <th>Bata Merah</th>
+                        <th>Bata Tempel</th>
+                        <th><strong>Rekabrick</strong></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Harga per unit</td><td>Rendah</td><td>Rendah</td><td>Sedikit lebih tinggi</td></tr>
+                    <tr><td>Plester & Acian</td><td>Wajib</td><td>Pakai lem</td><td>Tidak perlu</td></tr>
+                    <tr><td>Cat Tambahan</td><td>Wajib</td><td>Wajib</td><td>Tidak perlu</td></tr>
+                    <tr><td>Biaya Tukang</td><td>Tinggi</td><td>Cukup tinggi</td><td>Lebih hemat</td></tr>
+                    <tr><td>Estetika</td><td>Butuh finishing</td><td>Estetik, tapi rapuh</td><td>Estetik & kokoh</td></tr>
+                    <tr><td>Ketahanan</td><td>Retak</td><td>Bisa copot</td><td>Tahan lama</td></tr>
+                </tbody>
+            </table>
         </div>
     </section>
 
-    
-
-<!-- Bagian HTML -->
-<section style="background: #f0f0f0; padding: 40px 20px; text-align: center;">
-  <h2>Video Proyek REKABRICK</h2>
-
-  <div class="instagram-wrapper">
-    <blockquote 
-      class="instagram-media" 
-      data-instgrm-permalink="https://www.instagram.com/reel/DBh_pvFSD2i/?igsh=eHRkZzAzZWhkY3Ay" 
-      data-instgrm-version="14" 
-      style="margin: auto; max-width: 540px;">
-    </blockquote>
-  </div>
-
-  <!-- Script embed Instagram wajib disertakan -->
-  <script async src="//www.instagram.com/embed.js"></script>
-</section>
-
-
-        
+    <section id="video">
+        <div class="container">
+            <h2>Pemasangan & Testimoni</h2>
+            <p>Tonton video time-lapse: 1 rumah dibangun hanya dalam 14 hari. Tanpa plester, tanpa cat!</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn">Tonton Video Pemasangan</a>
+                <a href="#" class="btn outline">Dengar Testimoni Tukang</a>
+            </div>
+        </div>
     </section>
 
-    <section style="text-align: center; padding: 40px 20px; background: #f0f0f0;">
-        <h2>STOK TERBATAS LANGSUNG BOOKING SEKARANG</h2>
-        <p>Banyak yang sudah pindah dari bata tempel ke Rekabrick karena Tidak mau ribet 2x kerja</p>
-        <button class="cta-button" onclick="window.open('https://wa.me/6281234567890', '_blank')">KONSULTASI GRATIS SEKARANG</button>
+    <section id="showcase">
+        <div class="container">
+            <h2>Showcase Proyek</h2>
+            <ul>
+                <li>🏠 Reka Village Regency: Rumah subsidi cepat bangun</li>
+                <li>📚 Taman baca & ruang komunitas</li>
+                <li>☕ Cafe outdoor industrial-style</li>
+                <li>🕌 Renovasi masjid tanpa cat ulang</li>
+            </ul>
+            <a href="#" class="btn">Lihat Galeri Proyek</a>
+        </div>
     </section>
 
-    <a href="https://wa.me/6281234567890" class="floating-wa">💬 Tanya via WhatsApp</a>
+    <section id="kenapa">
+        <div class="container">
+            <h2>Kenapa Harus Rekabrick?</h2>
+            <ul>
+                <li>✅ Tanpa plester & cat → hemat 30–35%</li>
+                <li>✅ Estetik langsung dari pabrik</li>
+                <li>✅ Tahan cuaca & kuat</li>
+                <li>✅ Ramah lingkungan</li>
+                <li>✅ Cocok untuk rumah, cafe, masjid, dll</li>
+            </ul>
+            <div class="cta-buttons">
+                <a href="#" class="btn">Download Brosur PDF</a>
+                <a href="#simulasi" class="btn outline">Simulasikan Penghematan</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak">
+        <div class="container">
+            <h2>Hubungi Kami</h2>
+            <p>Siap beralih dari bata biasa ke solusi bangunan masa depan?</p>
+            <ul>
+                <li>WhatsApp: 08XX-XXXX-XXXX</li>
+                <li>Email: info@rekabrick.co.id</li>
+                <li>Instagram: @rekabrick</li>
+            </ul>
+            <div class="cta-buttons">
+                <a href="#" class="btn">Isi Form Penawaran</a>
+                <a href="#" class="btn outline">Download Katalog Produk</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Rekabrick — Bukan sekadar bata. Ini cara baru membangun. Lebih cepat, lebih hemat, lebih rapi.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 </body>
 </html>
