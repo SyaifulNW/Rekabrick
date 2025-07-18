@@ -26,12 +26,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// let slides = document.querySelectorAll(".hero-slider .slide");
-// let currentSlide = 0;
 
-// function nextSlide() {
-//     slides[currentSlide].classList.remove("active");
-//     currentSlide = (currentSlide + 1) % slides.length;
-//     slides[currentSlide].classList.add("active");
-// }
+
+
+
 
