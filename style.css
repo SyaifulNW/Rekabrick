@@ -54,7 +54,7 @@ header {
       background-attachment: fixed;
       background-blend-mode: overlay;
       background-color: rgba(0, 0, 0, 0.8);
-            height: 90vh;
+            height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
