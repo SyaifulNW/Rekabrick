@@ -26,13 +26,13 @@ h2 {
 p {
     font-size: 1.2rem;
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-weight: 500;
 }
 .p1 {
     font-size: 1.1rem;
     line-height: 1.5;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     color: #555;
 }
 
@@ -336,6 +336,18 @@ footer {
     background: #2e8b57;
     opacity: 1;
 }
+
+.highlight-box {
+  background-color: #ffffff; /* putih */
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+  color: #333;
+  max-width: 1000px;
+  margin: auto;
+}
+
 
 
 
