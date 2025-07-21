@@ -38,7 +38,7 @@ p {
 
 a {
     text-decoration: none;
-    color: #f34e3a;
+    color: rgb(246, 138, 10);
 }
 
 .container {
@@ -155,7 +155,7 @@ header {
 section h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #f34e3a;
+    color: rgb(246, 138, 10);
 }
 
 ul {
@@ -186,7 +186,7 @@ ul li {
 
 .btn-primary {
     background-color: #ffffff;
-    color: #f34e3a;
+    color: rgb(246, 138, 10);
     border: 2px solid transparent;
 }
 
@@ -203,7 +203,7 @@ ul li {
 
 .btn-outline-white:hover {
     background-color: #ffffff;
-    color: #f34e3a;
+    color: rgb(246, 138, 10);
 }
 
 
@@ -221,17 +221,17 @@ ul li {
 }
 
 .btn:hover {
-    background-color: #d33925;
+    background-color: rgb(246, 138, 10);
 }
 
 .btn.outline {
     background: none;
-    border: 2px solid #f34e3a;
+    border: 2px solid rgb(246, 138, 10)a;
     color: #f3f0ef;
 }
 
 #masalah {
-    background:#d33925; /* Gambar background bisa kamu ganti sesuai branding */
+    background:rgb(246, 138, 10); /* Gambar background bisa kamu ganti sesuai branding */
     background-size: cover;
     background-position: center;
     color: white;
@@ -250,7 +250,7 @@ ul li {
 
 
 .btn.outline:hover {
-    background-color: #f34e3a;
+    background-color: rgb(246, 138, 10);
     color: white;
 }
 
