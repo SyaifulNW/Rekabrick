@@ -38,7 +38,7 @@ p {
 
 a {
     text-decoration: none;
-    color: rgb(246, 138, 10);
+    color: rgb(243, 142, 19);
 }
 
 .container {
@@ -209,7 +209,7 @@ ul li {
 
 
 .btn {
-    background-color: #f34e3a;
+    background-color: rgb(246, 138, 10);
     color: white;
     padding: 12px 24px;
     text-decoration: none;
@@ -221,7 +221,7 @@ ul li {
 }
 
 .btn:hover {
-    background-color: rgb(246, 138, 10);
+    background-color: rgb(228, 129, 9);
 }
 
 .btn.outline {
